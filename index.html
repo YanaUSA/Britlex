@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html">Britlex</a>
+            <a href="./index.html" class="logo">Britlex</a>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./index.html">Skills</a></li>
-                <li><a href="./index.html">About Us</a></li>
-                <li><a href="./index.html">Pricing</a></li>
-                <li><a href="./index.html">Contacts</a></li>
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./index.html" class="nav-link">Skills</a></li>
+                <li><a href="./index.html" class="nav-link">About Us</a></li>
+                <li><a href="./index.html" class="nav-link">Pricing</a></li>
+                <li><a href="./index.html" class="nav-link">Contacts</a></li>
             </ul>
         </nav>
         <button type="button">Let’s Talk</button>
     </header>
     <main>
+        <!-- Hero -->
         <section>
             <h1>Learn Any Foreign Language</h1>
             <p>With our teachers who write a program for
@@ -33,13 +38,12 @@
             <h2>Skills</h2>
             <ul>
                 <li>
-                    <img src="./images/Shared goals-bro 1.png" alt="">
+                    <img src="./images/Shared goals-bro 1.png" alt="Two men setting goals" width="390">
                     <h3>Speaking</h3>
-                    <p>Improve your English skills and confidence.
+                    <p>Improve your English skills and confidence. 
                     Live classes and interactive lessons online.
-                    20% extra free for a limited time only
-                    
-                    Learn English online and improve your
+                    20% extra free for a limited time only.</p>
+                    <p>Learn English online and improve your
                     skills through our high-quality courses
                     and resources – all designed for adult language learners.</p>
                     <details>
@@ -48,7 +52,7 @@
                     </details>
                 </li>
                 <li>
-                    <img src="./images/Shared goals-bro 1.png" alt="people setting goals" width="390" height="390">
+                    <img src="./images/Typewriter-bro 1.png" alt="Typewriter" width="390">
                     <h3>Writing</h3>
                     <p>One of the most important and extensive
                     areas of natural science, the science that
@@ -60,7 +64,7 @@
                     </details>
                 </li>
                 <li>
-                    <img src="./images/Typewriter-bro 1.png" alt="" width="390">
+                    <img src="./images/House bookshelves-bro 1.png" alt="Man reading books" width="390">
                     <h3>Reading</h3>
                     <p>Perception and response actions of the user
                     resulting from the use and/or upcoming use
@@ -72,7 +76,7 @@
                     </details>
                 </li>
                 <li>
-                    <img src="./images/House bookshelves-bro 1.png" alt="" width="408">
+                    <img src="./images/Podcast audience-bro 1.png" alt="People listening podcasts" width="408">
                     <h3>Listening</h3>
                     <p>Here you can find activities to practise
                     your listening skills. Listening will help you to improve your understanding</p>
@@ -94,18 +98,19 @@
                     <span>800</span> Pupils
                 </li>
                 <li>
-                    <span></span>
+                    <span>18</span> Teachers
                 </li>
                 <li>
-                    <span></span>
+                    <span>6</span> Foreign languages
                 </li>
             </ul>
+            <img src="./images/Business competition-bro 1.png" alt="People climbing the bussines mountain" width="540">
         </section>
         <section>
             <h2>Pricing</h2>
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <img src="./images/online.png" alt="Girl studing online" width="426">
                     <h3>Self-study online course</h3>
                     <p>Start learning English online in live classes
                     with qualified EC teachers and students
@@ -114,47 +119,43 @@
                     <span>per month</span>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./images/lesson.png" alt="Man taking online classes" width="426">
                     <h3>Live online classes</h3>
                     <p>Interactive group classes with expert
                     teachers. Free 7-day trial</p>
-                    <span>
-                    </span>
-                    <span></span>
+                    <span>£12.99</span>
+                    <span>per month</span>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./images/webinar.png" alt="Woman watching webinar" width="426">
                     <h3>Personal Tuition</h3>
-                    <p></p>
-                    <span>
-                    </span>
-                    <span></span>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
-                    <span>
-                    </span>
-                    <span></span>
+                    <p>Online one-to-one English tutoring – enjoy
+                    our first session for only $1</p>
+                    <span>£12.99</span>
+                    <span>per month</span>
                 </li>
             </ul>
         </section>
         <section>
             <h2>Contact Us</h2>
-            <img src="" alt="">
+            <img src="./images/contact.png" alt="Boy throughing the paper plane" width="425">
             <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips
             and free resources</p>
-            form
+            <form name="signup_form" autocomplete="on" novalidate>
+                <label>
+                    <input type="email" name="Enter Your E-mail" />
+                </label>
+                    <button type="submit">Subscribe</button>
+            </form>
         </section>
-        <footer>
-            <a href="#">Britlex</a>
-            <ul>
-                <li> <a href="">Terms and Conditions</a></li>
-                <li> <a href="">Privacy Policy</a></li>
-                <li> <a href="">Cookie Policy</a></li>
-            </ul>
-        </footer>
     </main>
+    <footer>
+        <a href="#">Britlex</a>
+        <ul>
+            <li> <a href="">Terms and Conditions</a></li>
+            <li> <a href="">Privacy Policy</a></li>
+            <li> <a href="">Cookie Policy</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

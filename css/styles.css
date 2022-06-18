@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+    --main-color: #8F95A5;
+}
+
+/* Default */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 
+Britlex color: #939393;
+Terms and Conditions color: #546269; */
+
+:root {
+    --main-color: #8F95A5;
+    --secondary-color:#263238;
+    --accent-color: #000000;
+    --btn-text-color: #FFFFFF;
+    --
+}
